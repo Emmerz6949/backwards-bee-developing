@@ -12,7 +12,7 @@ function Project(props) {
                 <a href={props.deployed} target="_blank" className="btn cerulean text-wrap text-light rounded-0 m-1">Deployed Site</a>
             </div>
         </div>
-    )
+    );
 }
 
 export default Project;

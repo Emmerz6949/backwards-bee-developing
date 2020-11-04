@@ -1,0 +1,2 @@
+/*Footer component exists only to meet the requirememnts and is not 
+an actual feature I want for my portfolio*/

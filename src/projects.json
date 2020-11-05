@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "REÇQUE",
+        "image": "./screenshots/REÇQUE.png",
+        "repo": "https://github.com/Emmerz6949/recipeproject",
+        "deploy": "https://emmerz6949.github.io/recipeproject/"
+    },
+    {
+        "id": 2,
+        "name": "Work Day Scheduler",
+        "image": "./screenshots/Work Day Scheduler.png",
+        "repo": "https://github.com/Emmerz6949/9to5-today-planner",
+        "deploy": "https://emmerz6949.github.io/9to5-today-planner/"
+    },
+    {
+        "id": 3,
+        "name": "JavaScript Code Quiz",
+        "image": "./screenshots/JavaScript Code Quiz.png",
+        "repo": "https://github.com/Emmerz6949/js-code-quiz",
+        "deploy": "https://emmerz6949.github.io/js-code-quiz/"
+    },
+    {
+        "id": 4,
+        "name": "Weather Dashboard",
+        "image": "./screenshots/Weather Dashboard.png",
+        "repo": "https://github.com/Emmerz6949/whether-the-weather-is-good-or-not",
+        "deploy": "https://emmerz6949.github.io/whether-the-weather-is-good-or-not/"
+    },
+    {
+        "id": 5,
+        "name": "Password Generator",
+        "image": "./screenshots/Password Generator.png",
+        "repo": "https://github.com/Emmerz6949/password-generator",
+        "deploy": "https://emmerz6949.github.io/password-generator/"
+    },
+    {
+        "id": 6,
+        "name": "Burger Application",
+        "image": "./screenshots/Burger.png",
+        "repo": "https://github.com/Emmerz6949/burger",
+        "deploy": "https://fast-fortress-02922.herokuapp.com/"
+    },
+    {
+        "id": 7,
+        "name": "The Trivia Project",
+        "image": "./screenshots/The Trivia Project.png",
+        "repo": "https://github.com/Emmerz6949/group3project2",
+        "deploy": "https://polar-harbor-26142.herokuapp.com/"
+    }
+      
+]

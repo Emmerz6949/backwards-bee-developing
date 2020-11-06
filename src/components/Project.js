@@ -8,8 +8,8 @@ function Project(props) {
             <img src={props.imgSrc} className="card-img-top border-success" alt="screenshot of the main page for this site"/>
             <div className="card-body border-success">
                 <h5 className="card-title">{props.title}</h5>
-                <a href={props.repository} target="_blank" className="btn cerulean text-light rounded-0 m-1">Repository</a>
-                <a href={props.deployed} target="_blank" className="btn cerulean text-wrap text-light rounded-0 m-1">Deployed Site</a>
+                <a href={props.repository} target="_blank" rel="noopener noreferrer" className="btn cerulean text-light rounded-0 m-1">Repository</a>
+                <a href={props.deployed} target="_blank" rel="noopener noreferrer" className="btn cerulean text-wrap text-light rounded-0 m-1">Deployed Site</a>
             </div>
         </div>
     );

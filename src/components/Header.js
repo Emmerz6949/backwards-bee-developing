@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Header() {
+function Header(props) {
     return(
         // <!--header containing navigation bar-->
         <header>
@@ -12,16 +12,16 @@ function Header() {
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link" href="/">Home</a>
+                            <a className={props.currentPage === "Home" ? "nav-link active" : "nav-link"} href="/" onClick={() => props.handlePageChange("Home")}>Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/about">About Me</a>
+                            <a className={props.currentPage === "About Me" ? "nav-link active" : "nav-link"} href="/about" onClick={() => props.handlePageChange("About Me")}>About Me</a>
                         </li>
                         <li className="nav-item active">
-                            <a className="nav-link" href="/portfolio">My Portfolio</a>
+                            <a className={props.currentPage === "My Portfolio" ? "nav-link active" : "nav-link"} href="/portfolio" onClick={() => props.handlePageChange("My Portfolio")}>My Portfolio</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/contact">Contact Me</a>
+                            <a className={props.currentPage === "Contact Me" ? "nav-link active" : "nav-link"} href="/contact" onClick={() => props.handlePageChange("Contact Me")}>Contact Me</a>
                         </li>
                     </ul>
                 </div>

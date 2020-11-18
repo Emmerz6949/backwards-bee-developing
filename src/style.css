@@ -1,10 +1,10 @@
 /*styles the pages*/
 body {
-    background-color: #720A94;
+    background: url(https://i.ibb.co/Tv2Gm32/bee-eeb.png) repeat;
 }
 
 .cerulean {
-    background-color: #1DACD6;
+    background-color: #664ea1;
 }
 
 .ceruleanText {
@@ -12,7 +12,7 @@ body {
 }
 
 .btn:hover, li:hover {
-    background-color: #168fb4 !important;
+    background-color: #4a3875 !important;
 }
 
 #homeCard {

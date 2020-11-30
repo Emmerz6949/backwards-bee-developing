@@ -4,7 +4,7 @@ body {
 }
 
 .cerulean {
-    background-color: #664ea1;
+    background-color: #664ea1 !important;
 }
 
 .ceruleanText {

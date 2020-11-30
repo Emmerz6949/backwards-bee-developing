@@ -8,7 +8,7 @@ function About() {
         <main className="container">
             <section className="row justify-content-md-center">
                 <div className="col-md-8 ceruleanText bg-light">
-                    <h1 className="border-bottom border-danger py-2">About Me</h1>
+                    <h1 className="border-bottom border-dark py-2">About Me</h1>
                     <a className="d-block btn cerulean rounded-0 text-light" target="_blank" rel="noopener noreferrer" href={EBResume}>Resumé</a>
                 </div>
             </section>

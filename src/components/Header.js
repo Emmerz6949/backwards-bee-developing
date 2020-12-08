@@ -1,6 +1,9 @@
 import React from 'react';
+import { Link, useLocation } from "react-router-dom";
 
 function Header(props) {
+    const location = useLocation();
+
     return(
         // <!--header containing navigation bar-->
         <header>
@@ -12,16 +15,16 @@ function Header(props) {
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
                         <li className="nav-item">
-                            <a className={props.currentPage === "Home" ? "nav-link active" : "nav-link"} href="/" onClick={() => props.handlePageChange("Home")}>Home</a>
+                            <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>Home</Link>
                         </li>
                         <li className="nav-item">
-                            <a className={props.currentPage === "About Me" ? "nav-link active" : "nav-link"} href="/about" onClick={() => props.handlePageChange("About Me")}>About Me</a>
-                        </li>
-                        <li className="nav-item active">
-                            <a className={props.currentPage === "My Portfolio" ? "nav-link active" : "nav-link"} href="/portfolio" onClick={() => props.handlePageChange("My Portfolio")}>My Portfolio</a>
+                            <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>About Me</Link>
                         </li>
                         <li className="nav-item">
-                            <a className={props.currentPage === "Contact Me" ? "nav-link active" : "nav-link"} href="/contact" onClick={() => props.handlePageChange("Contact Me")}>Contact Me</a>
+                        <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>My Portfolio</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>Contact Me</Link>
                         </li>
                     </ul>
                 </div>

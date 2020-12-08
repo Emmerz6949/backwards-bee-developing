@@ -23,8 +23,8 @@ body {
     margin-top: 4vw;
 }
 
-.border-success {
-    border: #168fb4 0.5px solid !important;
+.bord {
+    border: 0.5px solid #664ea1 !important;
 }
 
 .lastRow {

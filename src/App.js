@@ -13,10 +13,10 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} />
+        <Route exact path="/backwards-bee-developing/" component={Home} />
+        <Route exact path="/backwards-bee-developing/about" component={About} />
+        <Route exact path="/backwards-bee-developing/portfolio" component={Portfolio} />
+        <Route path="/backwards-bee-developing/contact" component={Contact} />
       </div>
     </Router>
   );

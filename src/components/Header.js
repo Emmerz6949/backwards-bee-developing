@@ -15,16 +15,16 @@ function Header(props) {
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
                         <li className="nav-item">
-                            <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>Home</Link>
+                            <Link to="/backwards-bee-developing/" className={location.pathname === "/backwards-bee-developing/" ? "nav-link active" : "nav-link"}>Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>About Me</Link>
+                            <Link to="/backwards-bee-developing/about" className={location.pathname === "/backwards-bee-developing/about" ? "nav-link active" : "nav-link"}>About Me</Link>
                         </li>
                         <li className="nav-item">
-                        <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>My Portfolio</Link>
+                        <Link to="/backwards-bee-developing/portfolio" className={location.pathname === "/backwards-bee-developing/portfolio" ? "nav-link active" : "nav-link"}>My Portfolio</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>Contact Me</Link>
+                            <Link to="/backwards-bee-developing/contact" className={location.pathname === "/backwards-bee-developing/contact" ? "nav-link active" : "nav-link"}>Contact Me</Link>
                         </li>
                     </ul>
                 </div>

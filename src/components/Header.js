@@ -8,7 +8,7 @@ function Header(props) {
         // <!--header containing navigation bar-->
         <header>
             <nav className="navbar navbar-expand-lg navbar-dark cerulean">
-                <h1 className="navbar-brand mb-0"><a className="text-decoration-none text-reset" href="../index.html">Emmalee Barnett</a></h1>
+                <h1 className="navbar-brand mb-0"><Link to="/backwards-bee-developing/" className="text-decoration-none text-reset">Emmalee Barnett</Link></h1>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

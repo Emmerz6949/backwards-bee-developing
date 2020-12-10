@@ -12,7 +12,7 @@ You can use the commits to follow my journey.
 
 ### How did I do it?
 
-I used JavaScript, JSON, JSX, the React.js framework and its many default dependencies, and the following additional installed via npm Node.js packages: "react-router-dom", and "bootstrap" & it's peer dependencies "jquery", "popper.js", & "@popperjs/core" to write my code. I also used an installed via npm Node.js package called "gh-pages" to deploy the website.
+I used JavaScript, JSON, JSX, the React.js framework and its many default dependencies, and the following additional installed via npm Node.js packages: "react-router-dom", and "bootstrap" & its peer dependencies "jquery", "popper.js", & "@popperjs/core" to write my code. I also used an installed via npm Node.js package called "gh-pages" to deploy the website.
 
 If you wish to visit this website you can do so via this link: https://emmerz6949.github.io/backwards-bee-developing/ .
 
@@ -28,4 +28,4 @@ To use my portfolio site click on the link in the "How did I do it?" section of 
 
 ### Credits
 
-I used Node.js (https://nodejs.org/en/), React.js (https://reactjs.org/), the "react-router-dom" package (https://www.npmjs.com/package/react-router-dom), the "bootstrap" package (https://www.npmjs.com/package/bootstrap) & it's peer dependencies "jquery" (https://www.npmjs.com/package/jquery), "popper.js" (https://www.npmjs.com/package/popper.js), & "@popperjs/core" (https://www.npmjs.com/package/@popperjs/core), and the "gh-pages" package (https://www.npmjs.com/package/gh-pages). 
+I used Node.js (https://nodejs.org/en/), React.js (https://reactjs.org/), the "react-router-dom" package (https://www.npmjs.com/package/react-router-dom), the "bootstrap" package (https://www.npmjs.com/package/bootstrap) & its peer dependencies "jquery" (https://www.npmjs.com/package/jquery), "popper.js" (https://www.npmjs.com/package/popper.js), & "@popperjs/core" (https://www.npmjs.com/package/@popperjs/core), and the "gh-pages" package (https://www.npmjs.com/package/gh-pages). 

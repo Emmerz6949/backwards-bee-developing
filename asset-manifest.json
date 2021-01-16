@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/backwards-bee-developing/static/css/main.78ab1b01.chunk.css",
+    "main.js": "/backwards-bee-developing/static/js/main.7ad29a1d.chunk.js",
+    "main.js.map": "/backwards-bee-developing/static/js/main.7ad29a1d.chunk.js.map",
+    "runtime-main.js": "/backwards-bee-developing/static/js/runtime-main.fece3226.js",
+    "runtime-main.js.map": "/backwards-bee-developing/static/js/runtime-main.fece3226.js.map",
+    "static/css/2.2a86faee.chunk.css": "/backwards-bee-developing/static/css/2.2a86faee.chunk.css",
+    "static/js/2.0f6a84bd.chunk.js": "/backwards-bee-developing/static/js/2.0f6a84bd.chunk.js",
+    "static/js/2.0f6a84bd.chunk.js.map": "/backwards-bee-developing/static/js/2.0f6a84bd.chunk.js.map",
+    "index.html": "/backwards-bee-developing/index.html",
+    "precache-manifest.027e1ea4a250ece2e0349b8d841a5109.js": "/backwards-bee-developing/precache-manifest.027e1ea4a250ece2e0349b8d841a5109.js",
+    "service-worker.js": "/backwards-bee-developing/service-worker.js",
+    "static/css/2.2a86faee.chunk.css.map": "/backwards-bee-developing/static/css/2.2a86faee.chunk.css.map",
+    "static/css/main.78ab1b01.chunk.css.map": "/backwards-bee-developing/static/css/main.78ab1b01.chunk.css.map",
+    "static/js/2.0f6a84bd.chunk.js.LICENSE.txt": "/backwards-bee-developing/static/js/2.0f6a84bd.chunk.js.LICENSE.txt",
+    "static/media/Emmalee Barnett's Resume.doc.pdf": "/backwards-bee-developing/static/media/Emmalee Barnett's Resume.doc.b47ea81f.pdf",
+    "static/media/myself.jpg": "/backwards-bee-developing/static/media/myself.cdd9310e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fece3226.js",
+    "static/css/2.2a86faee.chunk.css",
+    "static/js/2.0f6a84bd.chunk.js",
+    "static/css/main.78ab1b01.chunk.css",
+    "static/js/main.7ad29a1d.chunk.js"
+  ]
+}

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/backwards-bee-developing/static/css/main.78ab1b01.chunk.css",
-    "main.js": "/backwards-bee-developing/static/js/main.7ad29a1d.chunk.js",
-    "main.js.map": "/backwards-bee-developing/static/js/main.7ad29a1d.chunk.js.map",
+    "main.js": "/backwards-bee-developing/static/js/main.a2d54fcc.chunk.js",
+    "main.js.map": "/backwards-bee-developing/static/js/main.a2d54fcc.chunk.js.map",
     "runtime-main.js": "/backwards-bee-developing/static/js/runtime-main.fece3226.js",
     "runtime-main.js.map": "/backwards-bee-developing/static/js/runtime-main.fece3226.js.map",
     "static/css/2.2a86faee.chunk.css": "/backwards-bee-developing/static/css/2.2a86faee.chunk.css",
     "static/js/2.0f6a84bd.chunk.js": "/backwards-bee-developing/static/js/2.0f6a84bd.chunk.js",
     "static/js/2.0f6a84bd.chunk.js.map": "/backwards-bee-developing/static/js/2.0f6a84bd.chunk.js.map",
     "index.html": "/backwards-bee-developing/index.html",
-    "precache-manifest.027e1ea4a250ece2e0349b8d841a5109.js": "/backwards-bee-developing/precache-manifest.027e1ea4a250ece2e0349b8d841a5109.js",
+    "precache-manifest.b09f2c5ecaf5c385d264e6a310ca0ed0.js": "/backwards-bee-developing/precache-manifest.b09f2c5ecaf5c385d264e6a310ca0ed0.js",
     "service-worker.js": "/backwards-bee-developing/service-worker.js",
     "static/css/2.2a86faee.chunk.css.map": "/backwards-bee-developing/static/css/2.2a86faee.chunk.css.map",
     "static/css/main.78ab1b01.chunk.css.map": "/backwards-bee-developing/static/css/main.78ab1b01.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.2a86faee.chunk.css",
     "static/js/2.0f6a84bd.chunk.js",
     "static/css/main.78ab1b01.chunk.css",
-    "static/js/main.7ad29a1d.chunk.js"
+    "static/js/main.a2d54fcc.chunk.js"
   ]
 }

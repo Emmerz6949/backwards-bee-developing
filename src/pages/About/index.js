@@ -17,7 +17,13 @@ function About() {
                     <img src={Myself} className="img-fluid" alt="headshot of me"/>
                 </div>
                 <div className="col-md-4 bg-light pt-4 text-center">
-                    <p>Full-stack web developer with a certificate from Johns Hopkins University. During my time earning the certificate I acquired skills in the following: HTML5, CSS3, JavaScript, jQuery, Bootstrap, Express.js, React.js, Node.js, MongoDB, MySQL, Command Line, Git, and more. I also worked on many projects both individually and as part of a team (explore the "My Portfolio" page). Known to be a team player and passionate about web development. I created my first website when I was in high school, and loved it instantly. Since then I wanted to learn more and more to be able to create bigger and better sites.</p>
+                    <p>
+                        Full-stack web developer with a certificate in Full Stack Web Development from The Johns Hopkins University. 
+                        During certificate coursework, acquired experience in multiple web development-related areas (see Technical Skills via clicking Resumé). 
+                        Worked on several projects (see My Portfolio tab) both individually and as part of a team. 
+                        Career history of sharing knowledge through training and increasing responsibility with managerial tasks and data management. 
+                        Passionate about web development with an attention to detail and positive user experience.
+                    </p>
                 </div>
             </section>
         </main>

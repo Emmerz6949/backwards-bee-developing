@@ -17,7 +17,7 @@ function About() {
                     <img src={Myself} className="img-fluid" alt="headshot of me"/>
                 </div>
                 <div className="col-md-4 bg-light pt-4 text-center">
-                    <p className="pt-4">
+                    <p id="summary" className="pt-4">
                         Full-stack web developer with a certificate in Full Stack Web Development from The Johns Hopkins University. 
                         During certificate coursework, acquired experience in multiple web development-related areas (see Technical Skills via clicking Resumé). 
                         Worked on several projects (see My Portfolio tab) both individually and as part of a team. 

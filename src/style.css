@@ -55,3 +55,9 @@ body {
         margin-right: 0px !important;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    #summary {
+        padding-top: 0px !important;
+    }
+}

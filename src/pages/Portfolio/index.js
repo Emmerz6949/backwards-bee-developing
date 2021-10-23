@@ -18,7 +18,7 @@ function Portfolio() {
                             <img src="./screenshots/Science-rific Labs.png" className="card-img-top bord" alt="screenshot of the main page for this site"/>
                             <div className="card-body bord">
                                 <h5 className="card-title">Science-rific Labs</h5>
-                                <a href="https://github.com/Emmerz6949/hackathon-covlab-ii-2021" target="_blank" rel="noopener noreferrer" className="btn cerulean text-light rounded-0 m-1">Repository</a>
+                                <a href="https://github.com/Emmerz6949/science-rific-labs" target="_blank" rel="noopener noreferrer" className="btn cerulean text-light rounded-0 m-1">Repository</a>
                                 <a href="https://devpost.com/software/hackathon-covlab-ii-2021-science-rific-labs" target="_blank" rel="noopener noreferrer" className="btn cerulean text-wrap text-light rounded-0 m-1">DevPost Page</a>
                             </div>
                         </div>

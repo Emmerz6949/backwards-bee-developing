@@ -14,6 +14,14 @@ function Portfolio() {
             <section className="row justify-content-md-center">
                 <div className="col-md-8 bg-light">
                     <div className="card-deck">
+                        <div className="card text-center text-light bg-dark bord my-2">
+                            <img src="./screenshots/Science-rific Labs.png" className="card-img-top bord" alt="screenshot of the main page for this site"/>
+                            <div className="card-body bord">
+                                <h5 className="card-title">Science-rific Labs</h5>
+                                <a href="https://github.com/Emmerz6949/hackathon-covlab-ii-2021" target="_blank" rel="noopener noreferrer" className="btn cerulean text-light rounded-0 m-1">Repository</a>
+                                <a href="https://devpost.com/software/hackathon-covlab-ii-2021-science-rific-labs" target="_blank" rel="noopener noreferrer" className="btn cerulean text-wrap text-light rounded-0 m-1">DevPost Page</a>
+                            </div>
+                        </div>
                         <Project 
                             id={projects[0].id}
                             key={projects[0].id}
@@ -22,6 +30,12 @@ function Portfolio() {
                             repository={projects[0].repo}
                             deployed={projects[0].deploy}
                         />
+                    </div>
+                </div>
+            </section>
+            <section className="row justify-content-md-center">
+                <div className="col-md-8 bg-light">
+                    <div className="card-deck">
                         <Project 
                             id={projects[1].id}
                             key={projects[1].id}
@@ -30,12 +44,6 @@ function Portfolio() {
                             repository={projects[1].repo}
                             deployed={projects[1].deploy}
                         />
-                    </div>
-                </div>
-            </section>
-            <section className="row justify-content-md-center">
-                <div className="col-md-8 bg-light">
-                    <div className="card-deck">
                         <Project 
                             id={projects[2].id}
                             key={projects[2].id}
@@ -45,6 +53,12 @@ function Portfolio() {
                             repository={projects[2].repo}
                             deployed={projects[2].deploy}
                         />
+                    </div>
+                </div>
+            </section>
+            <section className="row justify-content-md-center">
+                <div className="col-md-8 bg-light">
+                    <div className="card-deck">
                         <Project 
                             id={projects[3].id}
                             key={projects[3].id}
@@ -54,12 +68,6 @@ function Portfolio() {
                             repository={projects[3].repo}
                             deployed={projects[3].deploy}
                         />
-                    </div>
-                </div>
-            </section>
-            <section className="row justify-content-md-center">
-                <div className="col-md-8 bg-light">
-                    <div className="card-deck">
                         <Project 
                             id={projects[4].id}
                             key={projects[4].id}
@@ -69,6 +77,12 @@ function Portfolio() {
                             repository={projects[4].repo}
                             deployed={projects[4].deploy}
                         />
+                    </div>
+                </div>
+            </section>
+            <section className="row justify-content-md-center">
+                <div className="col-md-8 bg-light">
+                    <div className="card-deck">
                         <Project 
                             id={projects[5].id}
                             key={projects[5].id}
@@ -78,20 +92,16 @@ function Portfolio() {
                             repository={projects[5].repo}
                             deployed={projects[5].deploy}
                         />
+                        <Project 
+                            id={projects[6].id}
+                            key={projects[6].id}
+                            rowInfo="lastRow"
+                            imgSrc={projects[6].image}
+                            title={projects[6].name}
+                            repository={projects[6].repo}
+                            deployed={projects[6].deploy}
+                        />
                     </div>
-                </div>
-            </section>
-            <section className="row justify-content-md-center">
-                <div className="col-md-8 bg-light">
-                    <Project 
-                        id={projects[6].id}
-                        key={projects[6].id}
-                        rowInfo="lastRow"
-                        imgSrc={projects[6].image}
-                        title={projects[6].name}
-                        repository={projects[6].repo}
-                        deployed={projects[6].deploy}
-                    />
                 </div>
             </section>
         </main>
